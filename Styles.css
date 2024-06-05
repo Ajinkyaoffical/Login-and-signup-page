@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+body{
+    background: white;
+}
+.wrapper{
+    width: 330px;
+    padding: 2rem 1rem;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px 30px 50px black;
+}
+h1 {
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 1.2rem;
+}
+form input {
+    width: 92%;
+    outline: none;
+    border: 1px solid white;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background: rgb(248, 235, 235);
+}
+button{
+    font-size: 1rem;
+    margin-top: 1.8rem;
+    padding: 10px 0;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    width: 90%;
+    color: rgb(16, 15, 15);
+    cursor: pointer;
+    background: rgb(105, 105, 242);
+}
+button:hover{
+    background: rgb(106, 106, 252);
+}
+input:focus{
+    border: 1px solid rgb(145, 141, 141);
+}
+.terms{
+    margin-top: 0.2rem;
+
+}
+.terms input{
+    height: 1em;
+    width: 1em;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.terms label{
+    font-size: 0.7;
+
+}
+.terms a{
+    color: rgb(17, 107, 143);
+    text-decoration: none;
+}
+.member{
+    font-size: 0.8rem;
+    margin-top: 1.4rem;
+    color: rgb(70, 72, 72);
+}
+.member a{
+    color: rgb(71, 71, 250);
+    text-decoration: none;
+}
+.recover{
+    text-align: right;
+    font-size: 0.7rem;
+    margin: 0.3rem 1.4rem 0 0 ;
+}
+.recover a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Reset some basic elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Container class for consistent width */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header styling */
+header {
+    background: #160a0a;
+    color: #f5f0f0;
+    padding: 1rem 0;
+}
+
+header h1 {
+    float: left;
+    margin-top: 0;
+    color: #fffbfb;
+}
+
+nav {
+    float: right;
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #deee04;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styling */
+main {
+    padding: 2rem 0;
+}
+
+.hero {
+    background: #b3ee058e;
+    padding: 2rem;
+    text-align: center;
+}
+
+.hero h2 {
+    margin-bottom: 1rem;
+    color: orangered;
+}
+
+.content h3 {
+    margin-top: 2rem;
+    color: #0a0a0a;
+}
+
+.content p {
+    margin-top: 0.5rem;
+    color: rgb(251, 5, 25);
+}
+
+/* Footer styling */
+footer {
+    background: #f5f4f4;
+    color: #6e0505;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
